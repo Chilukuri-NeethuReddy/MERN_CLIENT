@@ -17,7 +17,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name 'Chilukuri-NeethuReddy-BG'
+          git config --global user.name 'Chilukuri-NeethuReddy'
           git config --global user.email 'chilukurineethureddy2004@gmail.com'
 
       - name: Fetch all branches
