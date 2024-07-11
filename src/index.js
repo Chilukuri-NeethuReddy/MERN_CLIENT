@@ -5,13 +5,14 @@ import Navbar from './components/navbar';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Register from './components/register';
 import Login from './components/login';
+import Home from './components/home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <Router>
-      <p>Changes</p>
       <Navbar/>
+      <Home/>
       <Routes>
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
